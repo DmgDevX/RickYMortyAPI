@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Rick & Morty"
+  },
+  "nav": {
+    "home": "Inicio",
+    "favorites": "Favoritos"
+  },
+  "filters": {
+    "name": "Buscar por nombre",
+    "species": "Especie",
+    "location": "Localización",
+    "all": "Todas"
+  },
+  "labels": {
+    "origin": "Origen",
+    "location": "Ubicación",
+    "currentLocation": "Ubicación actual"
+  },
+  "actions": {
+    "retry": "Reintentar",
+    "back": "Volver",
+    "clear": "Vaciar"
+  },
+  "loading": {
+    "default": "Cargando...",
+    "character": "Cargando personaje...",
+    "residents": "Cargando residentes...",
+    "searching": "Buscando…"
+  },
+  "errors": {
+    "title": "Error",
+    "generic": "Ha ocurrido un error cargando los datos.",
+    "residents": "No se han podido cargar los residentes."
+  },
+  "list": {
+    "showingResidents": "Mostrando residentes de la localización: <strong>{{location}}</strong>",
+    "noResultsTitle": "No hay resultados",
+    "noResultsDesc": "Prueba a cambiar los filtros de nombre, especie o localización."
+  },
+  "favorites": {
+    "title_one": "Favoritos ({{count}})",
+    "title_other": "Favoritos ({{count}})",
+    "emptyTitle": "No tienes favoritos todavía",
+    "emptyDesc": "Marca personajes con el icono de favorito para verlos aquí."
+  },
+  "card": {
+    "favAdd": "Añadir a favoritos",
+    "favRemove": "Quitar de favoritos"
+  },
+  "detail": {
+    "otherResidentsIn": "Otros residentes en {{location}}",
+    "otherResidentsFallback": "Otros residentes en esta localización",
+    "noOtherResidents": "No hay otros residentes para mostrar."
+  },
+  "status": {
+    "alive": "Vivo",
+    "dead": "Muerto",
+    "unknown": "Desconocido"
+  },
+  "gender": {
+    "male": "Hombre",
+    "female": "Mujer",
+    "genderless": "Sin género",
+    "unknown": "Desconocido"
+  },
+  "species": {
+    "Human": "Humano",
+    "Alien": "Alien",
+    "Humanoid": "Humanoide",
+    "Poopybutthole": "Poopybutthole",
+    "Mythological": "Mitológico",
+    "Unknown": "Desconocido",
+    "Animal": "Animal",
+    "Disease": "Enfermedad",
+    "Robot": "Robot",
+    "Cronenberg": "Cronenberg"
+  }
+}

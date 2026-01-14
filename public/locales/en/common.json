@@ -1,0 +1,79 @@
+{
+  "app": {
+    "title": "Rick & Morty"
+  },
+  "nav": {
+    "home": "Home",
+    "favorites": "Favorites"
+  },
+  "filters": {
+    "name": "Search by name",
+    "species": "Species",
+    "location": "Location",
+    "all": "All"
+  },
+  "labels": {
+    "origin": "Origin",
+    "location": "Location",
+    "currentLocation": "Current location"
+  },
+  "actions": {
+    "retry": "Retry",
+    "back": "Back",
+    "clear": "Clear"
+  },
+  "loading": {
+    "default": "Loading...",
+    "character": "Loading character...",
+    "residents": "Loading residents...",
+    "searching": "Searching…"
+  },
+  "errors": {
+    "title": "Error",
+    "generic": "Something went wrong loading data.",
+    "residents": "Could not load residents."
+  },
+  "list": {
+    "showingResidents": "Showing residents from location: <strong>{{location}}</strong>",
+    "noResultsTitle": "No results",
+    "noResultsDesc": "Try changing name, species or location filters."
+  },
+  "favorites": {
+    "title_one": "Favorites ({{count}})",
+    "title_other": "Favorites ({{count}})",
+    "emptyTitle": "You don't have favorites yet",
+    "emptyDesc": "Mark characters with the favorite icon to see them here."
+  },
+  "card": {
+    "favAdd": "Add to favorites",
+    "favRemove": "Remove from favorites"
+  },
+  "detail": {
+    "otherResidentsIn": "Other residents in {{location}}",
+    "otherResidentsFallback": "Other residents in this location",
+    "noOtherResidents": "No other residents to show."
+  },
+  "status": {
+    "alive": "Alive",
+    "dead": "Dead",
+    "unknown": "Unknown"
+  },
+  "gender": {
+    "male": "Male",
+    "female": "Female",
+    "genderless": "Genderless",
+    "unknown": "Unknown"
+  },
+  "species": {
+    "Human": "Human",
+    "Alien": "Alien",
+    "Humanoid": "Humanoid",
+    "Poopybutthole": "Poopybutthole",
+    "Mythological": "Mythological",
+    "Unknown": "Unknown",
+    "Animal": "Animal",
+    "Disease": "Disease",
+    "Robot": "Robot",
+    "Cronenberg": "Cronenberg"
+  }
+}
