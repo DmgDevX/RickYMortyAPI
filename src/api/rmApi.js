@@ -1,6 +1,5 @@
-const BASE_URL = "https://rickandmortyapi.com/api";
-
-/**
+const BASE_URL = import.meta.env.VITE_API_BASE_URL;
+/*
  * Hace una petición a la API de Rick & Morty
  * - Recibe un "path" (ej: "/character?page=1")
  * - Devuelve el JSON ya parseado
@@ -22,7 +21,7 @@ async function request(path) {
   return res.json();
 }
 
-/**
+/*
  * Convierte un objeto en un query string
  * Ejemplo:
  *  toQueryString({ page: 1, name: "rick", species: "" }) -> "?page=1&name=rick"

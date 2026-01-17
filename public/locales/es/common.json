@@ -9,11 +9,11 @@
   "filters": {
     "name": "Buscar por nombre",
     "species": "Especie",
-    "location": "Localización",
+    "location": "Ubicación actual",
     "all": "Todas"
   },
   "labels": {
-    "origin": "Origen",
+    "origin": "Planeta de origen",
     "location": "Ubicación",
     "currentLocation": "Ubicación actual"
   },

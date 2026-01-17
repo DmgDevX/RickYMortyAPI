@@ -9,7 +9,7 @@
   "filters": {
     "name": "Search by name",
     "species": "Species",
-    "location": "Location",
+    "location": "Current location",
     "all": "All"
   },
   "labels": {
